@@ -69,26 +69,26 @@ describe ("multiplyByThree", () => {
 //     it(" it will read the object and see if it is divisible by three", () => {
             
 
-// const object1 = { number: 15 }
-// Expected output: "15 is divisible by three"
-// const object2 = { number: 0 }
-// Expected output: "0 is divisible by three"
-// const object3 = { number: -7 }
-// Expected output: "-7 is not divisible by three"
+const object1 = { number: 15 }
+Expected output: "15 is divisible by three"
+const object2 = { number: 0 }
+Expected output: "0 is divisible by three"
+const object3 = { number: -7 }
+Expected output: "-7 is not divisible by three"
 
-// expect(divByThree())
+expect(divByThree())
 
 
-//     })
-// })
-//  let divByThree =(object) => {
-// if(object % 3 === 0) {
-//     return "divisible by 3"
-// } else if  ( object % 3 !== 0) {
-//     return " not divible by 3"
-// }
-//  }
-// console.log(divByThree())
+    })
+})
+ let divByThree =(object) => {
+if(object % 3 === 0) {
+    return "divisible by 3"
+} else if  ( object % 3 !== 0) {
+    return " not divible by 3"
+}
+ }
+console.log(divByThree())
 // b) Create the function that makes the test pass.
 
 
@@ -106,13 +106,13 @@ describe ("multiplyByThree", () => {
 // no change noted, tried return with split again
 
 
-// const letterArray =() => {
-// const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+const letterArray =() => {
+const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
  
-// const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
+const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
 
-// return randomNouns1.split("")
-//     expect ["Temperature", "Database", "Chopsticks", "Mango"]
+return randomNouns1.split.upperCase(randomNouns2)
+    
 
 // b) Create the function that makes the test pass.
 // read the prompt, make a function to surround the arrays.
