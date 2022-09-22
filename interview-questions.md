@@ -38,20 +38,20 @@ Researched answer: class is a detailed template for objects and what it will be,
 
 6. STRETCH: What is hoisting in JavaScript?
 
-Your answer: 
+Your answer: making js move the declaration be read as if it moved to the top
 
-Researched answer:
+Researched answer:avaScript Hoisting is the process where the ide interpreter appears to move the declaration of functions, variables or classes to the top of their code, before launching of the code.
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
 
-1. User stories:
+1. User stories: prompts that tell the coder what function to add to their code from the user's point of view
 
-2. Spread operator:
+2. Spread operator: operators in java script that are used to make copies of objects in js
 
-3. React:
+3. React: java script library that is used to make user interfaces for front end devloping
 
-4. React props:
+4. React props: components in java used to communicate data and behaviors between objects and parts
 
 5. DOM events:

@@ -30,7 +30,7 @@ describe ("multiplyByThree", () => {
 
         expect(multiplyByThree(numbersArray1)).toEqual[18, 21, 24, 27, 30]
         expect(multiplyByThree(numbersArray2)).toEqual[72, 81, 90, 99, 108]
-        return multiplyByThree(array)
+        
     })
 })
 
@@ -65,8 +65,8 @@ describe ("multiplyByThree", () => {
 // define or change the number to object so it will read the value in each object
 // object not defined
 // i attempted to make another function to tell if divisble by 3 but received " Missing second argument. It must be a callback function"
-// describe ("divByThree", () => {
-//     it(" it will read the object and see if it is divisible by three", () => {
+describe ("divByThree", () => {
+     it(" it will read the object and see if it is divisible by three", () => {
             
 
 const object1 = { number: 15 }
@@ -75,8 +75,10 @@ const object2 = { number: 0 }
 Expected output: "0 is divisible by three"
 const object3 = { number: -7 }
 Expected output: "-7 is not divisible by three"
-
-expect(divByThree())
+expect ()
+expect(divByThree(object1)).toEqual("15 is divisible by three")
+expect(divByThree(object2)).toEqual("0 is divisible by three")
+expect(divByThree(object2)).toEqual("-7 is not divisible by three")
 
 
     })
@@ -108,8 +110,11 @@ console.log(divByThree())
 
 const letterArray =() => {
 const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+expect
  
 const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
+expect(letteryArray(randomNouns1)).toEqual["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
+xpect(letteryArray(randomNouns2)).toEqual["Temperature", "Database", "Chopsticks", "Mango"]
 
 return randomNouns1.split.upperCase(randomNouns2)
     
@@ -141,6 +146,10 @@ const vowelTester2 = "academy"
 // // Expected output: 0
 const vowelTester3 = "challenges"
 // // Expected output: 2
+expect(vowelCheck(vowelTester1)).toEqual(1)
+expect(vowelCheck(vowelTester2)).toEqual(0)
+expect(vowelCheck(vowelTester3)).toEqual(2)
+
 }
 // b) Create the function that makes the test pass 
 const vowelCheck = () => {
